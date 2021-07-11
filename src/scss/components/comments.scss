@@ -1,0 +1,12 @@
+.comments {
+  padding: 2rem 0;
+}
+
+.comment {
+  & .commentedBy {
+    font-size: 3rem;
+  }
+  & .body {
+    font-size: 2rem;
+  }
+}

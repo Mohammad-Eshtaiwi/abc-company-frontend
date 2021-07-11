@@ -1,0 +1,17 @@
+.ticket {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  &__title {
+    font-size: 2rem;
+    &[data-type="1"] {
+      background-color: #83f52c;
+    }
+    &[data-type="2"] {
+      background-color: #cc3232;
+    }
+    &[data-type="3"] {
+      background-color: #000;
+    }
+  }
+}

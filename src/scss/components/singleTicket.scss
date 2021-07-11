@@ -1,0 +1,12 @@
+@import "../colors.scss";
+.single-ticket {
+  .single-ticket__title {
+    font-size: 4rem;
+    color: $red;
+    margin-bottom: 2rem;
+  }
+  .single-ticket__body {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}

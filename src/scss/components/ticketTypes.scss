@@ -1,0 +1,24 @@
+@import "../colors";
+.ticket-types {
+  a,
+  a:visited {
+    img {
+      transition: all 0.8s ease-in-out;
+    }
+    &:hover img {
+      transform: rotateY(360deg);
+    }
+    display: grid;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    &:hover,
+    &:focus {
+      color: $red;
+      transition: all 0.8s ease-in-out;
+    }
+  }
+}

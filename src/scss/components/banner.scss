@@ -1,0 +1,14 @@
+.banner {
+  background-image: url("https://theme.zdassets.com/theme_assets/43400/68e180eab4182c04167c4e704b85a64d29780781.jpg");
+  background-size: cover;
+  min-height: 50rem;
+  &__img {
+    display: inline-block;
+    margin: 10rem auto 1rem;
+  }
+  &__title {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+  }
+}
